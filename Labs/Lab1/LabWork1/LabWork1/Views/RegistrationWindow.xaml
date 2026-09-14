@@ -42,7 +42,10 @@
             <CheckBox x:Name="AgreementCheckBox" Grid.Row="5" Grid.ColumnSpan="2">
                 <TextBlock Text="Я принимаю пользовательское соглашение" FontSize="10"/>
             </CheckBox>
-            <Button Grid.ColumnSpan="2" Grid.Row="6" Content="Авторизироваться" IsEnabled="{Binding IsChecked, ElementName=AgreementCheckBox}" Command="{Binding RegistrationUserCommand}" CommandParameter="{Binding ElementName=UserPasswordBox}"/>
+            <Button Grid.ColumnSpan="2" Grid.Row="6" Content="Авторизироваться"
+                    IsEnabled="{Binding IsChecked, ElementName=AgreementCheckBox}"
+                    Command="{Binding RegistrationUserCommand}"
+                    CommandParameter="{Binding ElementName=UserPasswordBox}"/>
             <Label Content="Есть аккаунт?" Grid.Row="7"/>
             <Button Grid.Column="1" Grid.Row="7" Background="Beige" Content="Авторизироваться" FontWeight="Bold" Command="{Binding ToAuthorizationWindowCommand}"/>
         </Grid>

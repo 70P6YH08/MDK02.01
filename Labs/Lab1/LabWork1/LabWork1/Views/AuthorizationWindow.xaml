@@ -28,7 +28,9 @@
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="1">
                 <PasswordBox x:Name="UserPasswordBox" Width="150" PasswordChar="*"/>
             </Border>
-            <Button Grid.ColumnSpan="2" Grid.Row="2" Content="Авторизироваться" Command="{Binding AuthorizationUserAsyncCommand}" CommandParameter="{Binding ElementName=UserPasswordBox}"/>
+            <Button Grid.ColumnSpan="2" Grid.Row="2" Content="Авторизироваться"
+                    Command="{Binding AuthorizationUserAsyncCommand}"
+                    CommandParameter="{Binding ElementName=UserPasswordBox}"/>
             <Label Content="Нет аккаунта?" Grid.Row="3"/>
             <Button Grid.Column="1" Grid.Row="3" Background="HotPink" Content="Зарегистрироваться" FontWeight="Bold" Command="{Binding ToRegistrationWindowCommand}"/>
         </Grid>
