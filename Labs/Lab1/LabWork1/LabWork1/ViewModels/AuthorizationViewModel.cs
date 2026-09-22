@@ -1,7 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using LabWork1.DTOs;
+using LabWork1.Services;
 using LabWork1.Views;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -11,91 +14,106 @@ namespace LabWork1.ViewModels
     {
         [ObservableProperty]
         private string? _login;
-        [ObservableProperty]
-        private string? _password;
 
-        private string filePath = @"C:\temp\ispp31\MDK02.02\Labs\Lab1\users.csv";
+        AuthorizationWindow? currentWindow = Application.Current.Windows
+                .OfType<AuthorizationWindow>()
+                .SingleOrDefault(w => w.IsActive);
 
         [RelayCommand]
         private void ToRegistrationWindow()
         {
-            var currentWindow = Application.Current.Windows.OfType<AuthorizationWindow>().SingleOrDefault(w => w.IsActive);
             RegistrationWindow registrationWindow = new();
             registrationWindow.Show();
-            if(currentWindow != null)
+            if (currentWindow != null)
                 currentWindow.Close();
         }
 
-
-
         [RelayCommand]
-        private void AuthorizationUserAsync(object parameter)
+        private void AuthorizationUser(object parametrPasswordBox)
         {
+
+            if (String.IsNullOrEmpty(Login))
+            {
+                MessageBox.Show("Логин не может быть пустым!",
+                        "Предупреждение",
+                        MessageBoxButton.OK,
+                        MessageBoxImage.Warning);
+                return;
+            }
+
+            IntPtr bstrPasswordString = IntPtr.Zero;
             try
             {
-                var csvFile = File.ReadAllLines(filePath);
+                var csvFile = File.ReadAllLines(DataValidator.filePath);
                 foreach (var line in csvFile)
                 {
-                    if(line == null)
-                        return;
-
-                    var userData = line.Split(";");
-                    var userLogin = userData[1];
-
-                    if(String.IsNullOrEmpty(Login))
+                    if (String.IsNullOrEmpty(line))
                     {
-                        MessageBox.Show("Логин не может быть пустым!",
-                                "Предупреждение",
-                                MessageBoxButton.OK,
-                                MessageBoxImage.Warning);
-                        return;
-                    }
-                    else if (userLogin != Login)
-                    {
-                        MessageBox.Show("Такого пользователя нет в системе!",
-                           "Предупреждение",
+                        MessageBox.Show("Негде искать!",
+                           "Ошибка",
                            MessageBoxButton.OK,
                            MessageBoxImage.Warning);
                         return;
                     }
-                    else if (userLogin == Login)
+
+                    var userData = line.Split(";");
+                    var userLogin = userData[1];
+
+                    if (userLogin == Login)
                     {
-                        if(parameter is PasswordBox passwordBox)
+                        if (parametrPasswordBox is PasswordBox passwordBox)
                         {
-                            Password = passwordBox.Password;
+                            var securePassword = passwordBox.SecurePassword;
+                            var userPasswordHash = userData[2];
 
-                            var userPassword = userData[2];
-
-                            if (userPassword == Password)
+                            if (!DataValidator.IsRightPassword(securePassword, userPasswordHash))
                             {
-                                MessageBox.Show("Вы успешно вошли в систему!",
-                                    "Уведомление",
-                                    MessageBoxButton.OK,
-                                    MessageBoxImage.Information);
-                                Login = null;
-                                passwordBox.Clear();
-                                MainWindow mainWindow = new();
-                                mainWindow.ShowDialog();
-                                break;
+                                MessageBox.Show("Неправильный пароль",
+                                   "Предупреждение",
+                                   MessageBoxButton.OK,
+                                   MessageBoxImage.Warning);
+                                return;
                             }
-                        }
-                        else
-                        {
-                            MessageBox.Show("Неправильный пароль",
-                               "Предупреждение",
-                               MessageBoxButton.OK,
-                               MessageBoxImage.Warning);
+
+                            MessageBox.Show("Вы успешно вошли в систему!",
+                                "Уведомление",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Information);
+
+                            UserDto userDto = new()
+                            {
+                                Id = Convert.ToInt32(userData[0]),
+                                Login = userData[1],
+                                Email = userData[2],
+                            };
+
+
+                            if (currentWindow != null)
+                                currentWindow.Close();
+                            MainWindow mainWindow = new();
+                            mainWindow.Show();
+
                             return;
                         }
                     }
                 }
+                MessageBox.Show("Такого пользователя нет в системе!",
+                       "Предупреждение",
+                       MessageBoxButton.OK,
+                       MessageBoxImage.Warning);
+                return;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message,
                                 "Ошибка",
                                 MessageBoxButton.OK,
                                 MessageBoxImage.Error);
+            }
+            finally
+            {
+                if (bstrPasswordString != IntPtr.Zero)
+                    Marshal.ZeroFreeBSTR(bstrPasswordString);
             }
         }
     }

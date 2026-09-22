@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\temp\\ispp31\\MDK02.02\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj": {}
+    "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj": {}
   },
   "projects": {
-    "C:\\temp\\ispp31\\MDK02.02\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj": {
+    "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\ispp31\\MDK02.02\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
+        "projectUniqueName": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
         "projectName": "Task3",
-        "projectPath": "C:\\temp\\ispp31\\MDK02.02\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
-        "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\ispp31\\MDK02.02\\Labs\\Lab2\\LabWork2\\Task3\\obj\\",
+        "projectPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
+        "packagesPath": "C:\\Users\\gorbu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\0109-06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gorbu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

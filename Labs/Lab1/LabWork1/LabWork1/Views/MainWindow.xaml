@@ -7,12 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid ItemsSource="{Binding Users}" AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
-                <DataGridTextColumn Header="Пароль" Binding="{Binding Password}"/>
-                <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DataGrid ItemsSource="{Binding DataView}"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            <Button Content="Импорт" Width="100" Margin="0 0 5 0" Command="{Binding ImportExcelDataCommand}"/>
+            <Button Content="Экспорт" Width="100" Command="{Binding ExportExcelDataCommand}"/>
+        </StackPanel>
     </Grid>
 </Window>

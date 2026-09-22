@@ -4,6 +4,5 @@
              xmlns:local="clr-namespace:LabWork1"
              StartupUri="Views/AuthorizationWindow.xaml">
     <Application.Resources>
-         
     </Application.Resources>
 </Application>

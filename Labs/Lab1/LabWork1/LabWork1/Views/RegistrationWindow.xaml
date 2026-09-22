@@ -4,8 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabWork1.Views"
+        xmlns:converter="clr-namespace:LabWork1.Services"
         mc:Ignorable="d"
         Title="RegistrationWindow" Height="450" Width="800">
+    <Window.Resources>
+        <converter:PasswordConverter x:Key="PasswordConverter"/>
+    </Window.Resources>
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Label Content="Регистрация" Grid.Column="1" FontWeight="Bold" FontSize="15" HorizontalAlignment="Center"/>
         <Grid>
@@ -25,29 +29,38 @@
             </Grid.ColumnDefinitions>
             <Label Content="Логин" Grid.Row="1"/>
             <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
-                <TextBox Width="150"/>
+                <TextBox Width="150" Text="{Binding Login, UpdateSourceTrigger=PropertyChanged}"/>
             </Border>
             <Label Content="Пароль" Grid.Row="2"/>
             <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
-                <TextBox Width="150"/>
+                <PasswordBox x:Name="UserPasswordBox" Width="150"/>
             </Border>
             <Label Content="Повтор пароля" Grid.Row="3"/>
             <Border BorderBrush="Black" BorderThickness="1" Grid.Row="3" Grid.Column="1">
-                <TextBox Width="150"/>
+                <PasswordBox x:Name="ReturnUserPasswordBox" Width="150"/>
             </Border>
             <Label Content="Почта" Grid.Row="4"/>
             <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="4">
-                <TextBox Width="150"/>
+                <TextBox Width="150" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}"/>
             </Border>
             <CheckBox x:Name="AgreementCheckBox" Grid.Row="5" Grid.ColumnSpan="2">
                 <TextBlock Text="Я принимаю пользовательское соглашение" FontSize="10"/>
             </CheckBox>
-            <Button Grid.ColumnSpan="2" Grid.Row="6" Content="Авторизироваться"
+            <Button Grid.ColumnSpan="2" Grid.Row="6" Content="Зарегистрироваться"
                     IsEnabled="{Binding IsChecked, ElementName=AgreementCheckBox}"
-                    Command="{Binding RegistrationUserCommand}"
-                    CommandParameter="{Binding ElementName=UserPasswordBox}"/>
+                    Command="{Binding RegistrationUserCommand}">
+            <Button.CommandParameter>
+                <MultiBinding Converter="{StaticResource PasswordConverter}">
+                    <Binding ElementName="UserPasswordBox"/>
+                    <Binding ElementName="ReturnUserPasswordBox"/>
+                </MultiBinding>
+            </Button.CommandParameter>
+            </Button>
             <Label Content="Есть аккаунт?" Grid.Row="7"/>
-            <Button Grid.Column="1" Grid.Row="7" Background="Beige" Content="Авторизироваться" FontWeight="Bold" Command="{Binding ToAuthorizationWindowCommand}"/>
+            <Button Grid.Column="1" Grid.Row="7" Background="Beige" FontWeight="Bold"
+                    Content="Авторизация"
+                    Command="{Binding ToAuthorizationWindowCommand}">
+            </Button>
         </Grid>
     </StackPanel>
 </Window>
