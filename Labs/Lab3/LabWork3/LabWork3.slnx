@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ServerTask2/ServerTask2.csproj" Id="1d26865e-b107-4876-a695-56022bbc546f" />
+  <Project Path="Shared/SharedTask2.csproj" Id="85d4aa5f-5008-433c-a1e2-3c75aab8ebcc" />
+  <Project Path="Task1/Task1.csproj" />
+  <Project Path="Task2/ClientTask2.csproj" />
+</Solution>

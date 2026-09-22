@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "82V7cpSpIbE=",
+  "success": true,
+  "projectFilePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab3\\LabWork3\\Task2\\ClientTask2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\0109-06\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

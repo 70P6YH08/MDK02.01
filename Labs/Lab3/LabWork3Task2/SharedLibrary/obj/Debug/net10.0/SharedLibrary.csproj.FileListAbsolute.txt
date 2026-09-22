@@ -1,0 +1,12 @@
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\bin\Debug\net10.0\SharedLibrary.deps.json
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\bin\Debug\net10.0\SharedLibrary.dll
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\bin\Debug\net10.0\SharedLibrary.pdb
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.AssemblyInfoInputs.cache
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.AssemblyInfo.cs
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.sourcelink.json
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.dll
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\refint\SharedLibrary.dll
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\SharedLibrary.pdb
+C:\temp\ispp31\MDK02.01\Labs\Lab3\LabWork3Task2\SharedLibrary\obj\Debug\net10.0\ref\SharedLibrary.dll
