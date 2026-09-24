@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "a3PcTkrjwCc=",
   "success": true,
   "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
+=======
+  "dgSpecHash": "TIOSW3K1hFc=",
+  "success": true,
+  "projectFilePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
+>>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
   "expectedPackageFiles": [
     "C:\\Users\\gorbu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
   ],

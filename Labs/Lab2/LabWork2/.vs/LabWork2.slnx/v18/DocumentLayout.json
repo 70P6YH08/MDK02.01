@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\",
   "Documents": [
     {
@@ -7,6 +8,10 @@
       "RelativeMoniker": "D:0:0:{AF0FBC36-63F8-20C0-500B-09A10EDB3C7F}|LabWork2\\Task1.csproj|solutionrelative:labwork2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\",
+  "Documents": [],
+>>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
   "DocumentGroupContainers": [
     {
       "Orientation": 0,

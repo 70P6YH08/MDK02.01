@@ -16,7 +16,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EntryPointFilePath = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Task1
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\gorbu\Desktop\All\collage\4year1semestr\MDK02.01\Labs\Lab2\LabWork2\LabWork2\
+=======
+build_property.ProjectDir = C:\temp\ispp31\MDK02.01\Labs\Lab2\LabWork2\LabWork2\
+>>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0

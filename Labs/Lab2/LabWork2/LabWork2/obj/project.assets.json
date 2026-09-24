@@ -74,11 +74,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
       "projectName": "Task1",
       "projectPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
       "packagesPath": "C:\\Users\\gorbu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\obj\\",
+=======
+      "projectUniqueName": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
+      "projectName": "Task1",
+      "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\Task1.csproj",
+      "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
+      "outputPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\LabWork2\\obj\\",
+>>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
