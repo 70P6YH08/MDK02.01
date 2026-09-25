@@ -12,14 +12,9 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 C:\temp\ispp31\MDK02.01\Labs\Lab1\LabWork1\LabWork1\App.xaml
 3144998939
 
-<<<<<<< HEAD
 16929086650
-208811894965
-=======
-13-2084149319
-207-430875893
->>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
+208-55856570
 Views\AuthorizationWindow.xaml;Views\MainWindow.xaml;Views\RegistrationWindow.xaml;
 
-True
+False
 

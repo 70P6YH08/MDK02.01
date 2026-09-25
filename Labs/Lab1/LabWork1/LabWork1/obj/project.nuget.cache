@@ -1,19 +1,21 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "jznruMcokp0=",
-=======
-  "dgSpecHash": "IBGBv4cn/HA=",
->>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
+  "dgSpecHash": "gGA8ofBb/AY=",
   "success": true,
   "projectFilePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
-    "C:\\Users\\gorbu\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
-=======
+    "C:\\Users\\0109-06\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\0109-06\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
->>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Ошибка чтения файла кэша C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

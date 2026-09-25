@@ -41,8 +41,11 @@ namespace LabWork1.ViewModels
             {
                 dataTable.Rows.Clear();
                 dataTable.Columns.Clear();
+
                 int maxColumns = 0;
+
                 var csvFile = File.ReadAllLines(_excelFilePath);
+
                 foreach (var line in csvFile)
                 {
                     if (String.IsNullOrEmpty(line))

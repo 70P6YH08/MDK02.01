@@ -24,8 +24,6 @@ namespace LabWork1.ViewModels
         {
             RegistrationWindow registrationWindow = new();
             registrationWindow.Show();
-            if (currentWindow != null)
-                currentWindow.Close();
         }
 
         [RelayCommand]
@@ -57,14 +55,14 @@ namespace LabWork1.ViewModels
                     }
 
                     var userData = line.Split(";");
-                    var userLogin = userData[1];
+                    var userLogin = userData[2];
 
                     if (userLogin == Login)
                     {
                         if (parametrPasswordBox is PasswordBox passwordBox)
                         {
                             var securePassword = passwordBox.SecurePassword;
-                            var userPasswordHash = userData[2];
+                            var userPasswordHash = userData[3];
 
                             if (!DataValidator.IsRightPassword(securePassword, userPasswordHash))
                             {

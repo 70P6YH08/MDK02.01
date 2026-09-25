@@ -1,55 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\services\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-<<<<<<< HEAD
-          "DockedWidth": 214,
-=======
-          "DockedWidth": 200,
->>>>>>> 35bb984502b0e5a528f62f1e7c0d25ef5effc6ae
-          "SelectedChildIndex": -1,
+          "DockedWidth": 95,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataValidator.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
+              "RelativeDocumentMoniker": "LabWork1\\Services\\DataValidator.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
+              "RelativeToolTip": "LabWork1\\Services\\DataValidator.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswIQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:39:15.291Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:34:03.029Z",
+              "EditorCaption": ""
             }
           ]
         }
