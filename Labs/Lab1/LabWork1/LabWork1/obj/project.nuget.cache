@@ -1,21 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gGA8ofBb/AY=",
+  "dgSpecHash": "jznruMcokp0=",
   "success": true,
-  "projectFilePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
+  "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\0109-06\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
-    "C:\\Users\\0109-06\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    "C:\\Users\\gorbu\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Ошибка чтения файла кэша C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\obj\\project.nuget.cache: '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\LabWork1.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

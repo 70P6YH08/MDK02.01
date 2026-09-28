@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LabWork2.ViewModels
+namespace Task3.ViewModels
 {
     public partial class ViewModelBase : ObservableObject
     {

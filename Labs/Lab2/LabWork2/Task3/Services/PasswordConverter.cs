@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
+﻿using System.Globalization;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
@@ -12,6 +10,7 @@ namespace Task3.Services
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
             PasswordBox[] passwordBoxes = new PasswordBox[2];
+
             passwordBoxes[0] = values[0] as PasswordBox;
             passwordBoxes[1] = values[1] as PasswordBox;
             return passwordBoxes;

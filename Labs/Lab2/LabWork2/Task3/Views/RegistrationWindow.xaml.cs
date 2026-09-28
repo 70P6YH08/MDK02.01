@@ -1,8 +1,8 @@
-﻿using LabWork2.ViewModels;
+﻿using Task3.ViewModels;
 using System.Windows;
-using LabWork2.Services;
+using Task3.Services;
 
-namespace LabWork2.Views
+namespace Task3.Views
 {
     /// <summary>
     /// Логика взаимодействия для RegistrationWindow.xaml

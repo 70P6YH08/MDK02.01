@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3326F9D-8043-4457-935C-9CF2446FD6F5}|LabWork11\\LabWork11.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab1\\labwork1\\labwork11\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3326F9D-8043-4457-935C-9CF2446FD6F5}|LabWork11\\LabWork11.csproj|solutionrelative:labwork11\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 95,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork11\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "LabWork11\\UnitTest1.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork11\\UnitTest1.cs",
+              "RelativeToolTip": "LabWork11\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:51:15.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DataValidator.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
               "RelativeDocumentMoniker": "LabWork1\\Services\\DataValidator.cs",
               "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
               "RelativeToolTip": "LabWork1\\Services\\DataValidator.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAswIQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswH8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T08:39:15.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthorizationViewModel.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
               "RelativeDocumentMoniker": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
               "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
               "RelativeToolTip": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAmwEIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwFIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T08:34:03.029Z",
               "EditorCaption": ""
