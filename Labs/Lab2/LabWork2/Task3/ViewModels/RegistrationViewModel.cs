@@ -93,7 +93,7 @@ namespace Task3.ViewModels
                             var userEmail = userData[3];
                             if (userEmail == Email)
                             {
-                                MessageBox.Show("Такой пользователь уже существует!",
+                                MessageBox.Show("Пользователь с такой почтой уже существует!",
                                     "Предупреждение",
                                     MessageBoxButton.OK,
                                     MessageBoxImage.Warning);

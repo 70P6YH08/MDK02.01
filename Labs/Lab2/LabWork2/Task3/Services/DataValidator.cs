@@ -35,9 +35,6 @@ namespace Task3.Services
 
         public static bool IsValidMail(string mail)
         {
-            //if (String.IsNullOrEmpty(mail))
-            //    return true;
-
             return Regex.IsMatch(mail, _mailRegex);
         }
 
@@ -56,7 +53,7 @@ namespace Task3.Services
 
             if (password.Length != returnPassword.Length)
                 return "Пароли разной длины";
-
+            
             return "Неверный формат пароля.\nПример пароля: pa$Sw0rd";
         }
 
@@ -70,17 +67,35 @@ namespace Task3.Services
             string localPart = mailParts[0];
             string domainPart = mailParts[1];
 
+
             if (localPart.StartsWith('.') || localPart.EndsWith('.'))
                 return "Имя почты не может начинаться или заканчиваться точкой";
-
-            if (domainPart.StartsWith('.') || domainPart.EndsWith('.'))
-                return "Доменное имя почты не может начинаться или заканчиваться точкой";
 
             if (String.IsNullOrEmpty(localPart))
                 return "Имя почты не может быть пустым";
 
             if (String.IsNullOrEmpty(domainPart))
                 return "Доменное имя почты не может быть пустым";
+
+            if (!domainPart.Contains('.'))
+                return "Некорректное доменное имя";
+
+            if (domainPart.StartsWith('.') || domainPart.EndsWith('.'))
+                return "Доменное имя почты не может начинаться или заканчиваться точкой";
+
+            var domens = domainPart.Split('.');
+
+            string secondLevel = domens[0];
+            string topLevel = domens[1];
+
+            if (String.IsNullOrEmpty(secondLevel))
+                return "Доменное имя второго уровня не указано";
+
+            if (String.IsNullOrEmpty(topLevel))
+                return "Доменное имя верхнего уровня не указано";
+
+            //if (!topLevel.Equals("ru") || !topLevel.Equals("com"))
+            //    return "Доменное имя верхнего уровня должно быть com или ru";
 
             return "Неверный формат почты.\nПример почты: example1.qwe@gmail.com";
         }
@@ -98,9 +113,9 @@ namespace Task3.Services
                 int length = Marshal.ReadInt32(passwordBstr, -4);
                 for (int i = 0; i < length; i++)
                 {
-                    byte b1 = Marshal.ReadByte(passwordBstr, i);
-                    byte b2 = Marshal.ReadByte(returnPasswordBstr, i);
-                    if (b1 != b2)
+                    byte passwordBytes = Marshal.ReadByte(passwordBstr, i);
+                    byte returnPasswordBytes = Marshal.ReadByte(returnPasswordBstr, i);
+                    if (passwordBytes != returnPasswordBytes)
                         return false;
                 }
 
