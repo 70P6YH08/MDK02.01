@@ -11,6 +11,7 @@
       }
     },
     "https": {
+      "launchUrl": "scalar/v1",
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
