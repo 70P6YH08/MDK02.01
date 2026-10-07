@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab2\\labwork2\\task5\\customtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\customtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab2\\labwork2\\task5\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab2\\labwork2\\task5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab2\\labwork2\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab2\\labwork2\\task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task5",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Task5.csproj",
+              "RelativeDocumentMoniker": "Task5\\Task5.csproj",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Task5.csproj",
+              "RelativeToolTip": "Task5\\Task5.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T19:53:14.979Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -58,39 +71,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Program.cs",
-              "RelativeDocumentMoniker": "Task5\\Program.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Program.cs",
-              "RelativeToolTip": "Task5\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CustomTask.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\CustomTask.cs",
+              "RelativeDocumentMoniker": "Task5\\CustomTask.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\CustomTask.cs",
+              "RelativeToolTip": "Task5\\CustomTask.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T21:36:12.9Z",
+              "WhenOpened": "2026-10-07T13:53:53.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Task5\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Task5\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T21:35:28.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Task5\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Controllers\\TasksController.cs",
               "RelativeToolTip": "Task5\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T21:32:50.238Z",
               "EditorCaption": ""

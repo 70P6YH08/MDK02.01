@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Task5.Models;
+using System.Text;
 
 namespace Task5.Controllers
 {
@@ -19,7 +19,7 @@ namespace Task5.Controllers
                 string? header = await streamReader.ReadLineAsync();
 
                 string? line;
-                while((line = await streamReader.ReadLineAsync()) != null)
+                while ((line = await streamReader.ReadLineAsync()) != null)
                 {
                     var task = line.Split(';');
                     tasks.Add(new CustomTask
@@ -27,7 +27,7 @@ namespace Task5.Controllers
                         Id = Convert.ToInt32(task[0]),
                         Title = task[1],
                         Description = task[2],
-                        TaskPriority = task[3],
+                        Priority = task[3],
                         Status = task[4]
                     });
                 }
@@ -36,6 +36,7 @@ namespace Task5.Controllers
         }
 
         [HttpGet("{id}")]
+        [ActionName(nameof(GetTaskByIdAsync))]
         public async Task<ActionResult<CustomTask>> GetTaskByIdAsync(int id)
         {
             var lines = System.IO.File.ReadAllLines(filePath);
@@ -52,7 +53,7 @@ namespace Task5.Controllers
                 Id = Convert.ToInt32(dataTask[0]),
                 Title = dataTask[1],
                 Description = dataTask[2],
-                TaskPriority = dataTask[3],
+                Priority = dataTask[3],
                 Status = dataTask[4]
             };
 
@@ -61,50 +62,91 @@ namespace Task5.Controllers
             return Ok(task);
         }
 
-        //[HttpGet]
-        //public async Task PostTasksAsync()
-        //{
-        //    string content = @"<form method='post'>
-        //        <label>Название:</label><br />
-        //        <input name='title' /><br />
-        //        <label>Описание задачи:</label><br />
-        //        <input name='description' /><br />
-        //        <input type='submit' value='Добавить задачу' />
-        //    </form>";
-        //    Response.ContentType = "text/html;charset=utf-8";
-        //    await Response.WriteAsync(content);
-        //}
 
         [HttpPost]
-        public async Task<ActionResult> PostTaskAsync(CustomTask newTask)
+        public async Task<ActionResult> PostTaskAsync([FromBody] CustomTask newTask)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             if (!System.IO.File.Exists(filePath))
-                return BadRequest("Файл не найден");
+                return NotFound("Файл не найден");
 
             var lines = System.IO.File.ReadAllLines(filePath);
-            var lastTask = lines.Last();
 
-            var lastTaskId = int.Parse(lastTask.Split(';').First());
-
-            //var newTask = new CustomTask()
-            //{
-            //    Id = lastTaskId,
-            //    Title = title,
-            //    Description = description,
-            //    TaskPriority = "Low",
-            //    Status = "false"
-            //};
-
-            using (StreamWriter streamWriter = new StreamWriter(filePath))
+            if (lines.Length > 0)
             {
-                await streamWriter.WriteAsync($"{lastTaskId + 1};" +
-                    $"{newTask.Title};" +
-                    $"{newTask.Description};" +
-                    $"Low;" +
-                    $"false");
+                var lastLine = lines.Last(l => !String.IsNullOrEmpty(l));
+                if (!String.IsNullOrEmpty(lastLine))
+                {
+                    var lastTaskData = lastLine.Split(';');
+                    if (lastTaskData.Length > 0)
+                    {
+                        if (!String.IsNullOrEmpty(lastTaskData[0]) && int.TryParse(lastTaskData[0], out int lastTaskId))
+                        {
+                            if (lastTaskId >= newTask.Id)
+                                newTask.Id = lastTaskId + 1;
+                        }
+                    }
+                }
             }
 
-            return CreatedAtAction(nameof(GetTaskByIdAsync), new { Id = lastTaskId + 1}, newTask);
+            try
+            {
+                using (StreamWriter streamWriter = new StreamWriter(filePath, true, Encoding.UTF8))
+                {
+                    await streamWriter.WriteLineAsync($"{newTask.Id};" +
+                        $"{newTask.Title};" +
+                        $"{newTask.Description};" +
+                        $"{newTask.Priority};" +
+                        $"{newTask.Status}");
+                }
+                return CreatedAtAction(nameof(GetTaskByIdAsync), new { Id = newTask.Id }, newTask);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> PutTaskAsync(int id, CustomTask inputTask)
+        {
+            if (id != inputTask.Id)
+                return BadRequest();
+
+            var lines = System.IO.File.ReadAllLines(filePath);
+
+            var findLine = lines.FirstOrDefault(l => l.StartsWith($"{id}"));
+
+            if (findLine == null)
+                return NotFound();
+
+            var taskData = findLine.Split(';');
+
+            taskData[0] = inputTask.Id;
+
+            inputTask = new()
+            {
+                Id = Convert.ToInt32(taskData[0]),
+                Title = taskData[1],
+                Description = taskData[2],
+                Priority = taskData[3],
+                Status = taskData[4]
+            };
+
+            using (StreamWriter streamWriter = new StreamWriter(filePath, true, Encoding.UTF8))
+            {
+                await streamWriter.WriteLineAsync($"{inputTask.Id};" +
+                    $"{inputTask.Title};" +
+                    $"{inputTask.Description};" +
+                    $"{inputTask.Priority};" +
+                    $"{inputTask.Status}");
+            }
+
+            if (inputTask == null)
+                return NotFound();
+            return Ok(inputTask);
         }
     }
 }
