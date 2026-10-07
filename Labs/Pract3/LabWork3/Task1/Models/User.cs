@@ -8,9 +8,10 @@ namespace Task1.Models
     {
         public int Id { get; set; }
         public int RoleId { get; set; }
+        public int PrivilegeId { get; set; }
         public string Login { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
         public string Email { get; set; } = null!;
-
+        public string Status { get; set; } = null!;
     }
 }

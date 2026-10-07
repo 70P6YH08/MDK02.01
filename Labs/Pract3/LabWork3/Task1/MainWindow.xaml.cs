@@ -12,11 +12,12 @@ namespace Task1
     {
         private readonly string _usersFilePath = "users.csv";
         private readonly string _rolesFilePath = "roles.csv";
-        List<User> users = new();
+        private readonly string _privilegesFilePath = "privileges.csv";
 
-        List<User> resetUsers = new();
-        
+
+        List<User> users = new();
         List<Role> roles = new();
+        List<Privilege> privileges = new();
 
         List<UserDto> userDtos = new();
 
@@ -28,34 +29,28 @@ namespace Task1
             usersDataGrid.ItemsSource = users;
         }
 
-
-
         private void LoadData()
         {
             users = GetUsers(_usersFilePath);
             roles = GetUserRoles(_rolesFilePath);
-            
+            privileges = GetUserPriveles(_privilegesFilePath);
         }
 
-        private void GetUserDtos()
+        private List<UserDto> GetUserDtos()
         {
-            foreach (var user in users)
-            {
-                userDtos.Add(new UserDto
-                {
-                    Login = user.Login,
-                    Role = roles.FirstOrDefault()?.Name.Where(user.RoleId == roles.First().Id)
-                }
-            }
+            userDtos.AddRange(users.Select(u => new UserDto{
+            Login = u.Login}))
         }
 
-        private List<User> GetUsers(string usersFilePath)
+
+        static private List<User> GetUsers(string usersFilePath)
         {
             if (!File.Exists(usersFilePath))
             {   
                 MessageBox.Show("Хранилище данных пользователей не найдено", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 return new List<User>();
             }
+
             var users = new List<User>();
             try
             {
@@ -69,11 +64,13 @@ namespace Task1
 
                         users.Add(new User
                         {
-                            Id = Convert.ToInt32(userData[0]),
-                            RoleId = roles.Select(r => r.Name),
-                            Login = userData[2],
-                            PasswordHash = userData[3],
-                            Email = userData[4],
+                            Id = int.TryParse(userData[0], out int userId) ? userId : userId,
+                            RoleId = int.TryParse(userData[1], out int roleId) ? roleId : roleId,
+                            PrivilegeId = int.TryParse(userData[2], out int privilegeId) ? privilegeId : privilegeId,
+                            Login = userData[3],
+                            PasswordHash = userData[4],
+                            Email = userData[5],
+                            Status = userData[6]
                         });
                     }
                     streamReader.Close();
@@ -85,6 +82,7 @@ namespace Task1
             }
             return users;
         } 
+
         static private List<Role> GetUserRoles(string rolesFilePath)
         {
             if (!File.Exists(rolesFilePath))
@@ -117,7 +115,43 @@ namespace Task1
             {
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+
             return roles;
-        } 
+        }
+        static private List<Privilege> GetUserPriveles(string rolesFilePath)
+        {
+            if (!File.Exists(rolesFilePath))
+            {
+                MessageBox.Show("Хранилище данных привилегий не найдено", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return new List<Privilege>();
+            }
+
+            var roles = new List<Privilege>();
+
+            try
+            {
+                string? privilegesData;
+
+                using (var streamReader = new StreamReader(rolesFilePath))
+                {
+                    while ((privilegesData = streamReader.ReadLine()) != null)
+                    {
+                        var privilegeData = privilegesData.Split(';');
+
+                        roles.Add(new Privilege
+                        {
+                            Id = Convert.ToInt32(privilegeData[0]),
+                            Name = privilegeData[1]
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
+            return roles;
+        }
     }
 }

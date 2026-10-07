@@ -1,0 +1,4 @@
+C:\temp\ispp31\MDK02.01\Labs\Pract3\LabWork3\Task1\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\temp\ispp31\MDK02.01\Labs\Pract3\LabWork3\Task1\obj\Debug\net10.0-windows\App.g.cs
+C:\temp\ispp31\MDK02.01\Labs\Pract3\LabWork3\Task1\obj\Debug\net10.0-windows\Task1_MarkupCompile.cache
+C:\temp\ispp31\MDK02.01\Labs\Pract3\LabWork3\Task1\obj\Debug\net10.0-windows\Task1_MarkupCompile.lref
