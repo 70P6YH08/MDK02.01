@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\models\\privilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\models\\privilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\pract3\\labwork3\\task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Task1\\Models\\Role.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\Role.cs",
+              "RelativeToolTip": "Task1\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:18:57.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Task1\\Models\\User.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\User.cs",
+              "RelativeToolTip": "Task1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T08:16:17.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Privilege.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\Privilege.cs",
               "RelativeDocumentMoniker": "Task1\\Models\\Privilege.cs",
@@ -51,46 +77,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Task1\\DTOs\\UserDto.cs",
               "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\DTOs\\UserDto.cs",
               "RelativeToolTip": "Task1\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T20:43:40.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Task1\\Models\\Role.cs",
-              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\Role.cs",
-              "RelativeToolTip": "Task1\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T20:43:17.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Task1\\Models\\User.cs",
-              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Models\\User.cs",
-              "RelativeToolTip": "Task1\\Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T19:25:29.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Task1\\MainWindow.xaml",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Task1\\MainWindow.xaml.cs",
@@ -110,8 +110,7 @@
               "RelativeToolTip": "Task1\\MainWindow.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAcwCkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T19:21:46.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T19:21:46.878Z"
             }
           ]
         }

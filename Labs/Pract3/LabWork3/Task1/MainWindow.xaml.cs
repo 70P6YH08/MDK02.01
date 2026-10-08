@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Windows;
+using System.Xml.Linq;
 using Task1.DTOs;
 using Task1.Models;
 
@@ -16,8 +17,10 @@ namespace Task1
 
 
         List<User> users = new();
-        List<Role> roles = new();
-        List<Privilege> privileges = new();
+        Dictionary<int, string> roles = new();
+        Dictionary<int, string> privileges = new();
+
+
 
         List<UserDto> userDtos = new();
 
@@ -26,29 +29,36 @@ namespace Task1
         {
             InitializeComponent();
             LoadData();
-            usersDataGrid.ItemsSource = users;
         }
 
         private void LoadData()
         {
-            users = GetUsers(_usersFilePath);
-            roles = GetUserRoles(_rolesFilePath);
-            privileges = GetUserPriveles(_privilegesFilePath);
+            GetUsers(_usersFilePath);
+            GetUserRoles(_rolesFilePath);
+            GetUserPriveles(_privilegesFilePath);
+
+            GetUserDtos();
         }
 
-        private List<UserDto> GetUserDtos()
+        private void GetUserDtos()
         {
-            userDtos.AddRange(users.Select(u => new UserDto{
-            Login = u.Login}))
+            userDtos.AddRange(
+                users.Select(u => new UserDto
+                {
+                    Login = u.Login,
+                    Role = roles.GetValueOrDefault(u.RoleId, "Неизвестная роль"),
+                    Email = u.Email,
+                })
+            );
         }
 
 
-        static private List<User> GetUsers(string usersFilePath)
+        private void GetUsers(string usersFilePath)
         {
             if (!File.Exists(usersFilePath))
-            {   
+            {
                 MessageBox.Show("Хранилище данных пользователей не найдено", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<User>();
+                return;
             }
 
             var users = new List<User>();
@@ -80,18 +90,15 @@ namespace Task1
             {
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            return users;
-        } 
+        }
 
-        static private List<Role> GetUserRoles(string rolesFilePath)
+        private void GetUserRoles(string rolesFilePath)
         {
             if (!File.Exists(rolesFilePath))
             {
                 MessageBox.Show("Хранилище данных ролей не найдено", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<Role>();
+                return;
             }
-
-            var roles = new List<Role>();
 
             try
             {
@@ -103,11 +110,10 @@ namespace Task1
                     {
                         var roleData = rolesData.Split(';');
 
-                        roles.Add(new Role
-                        {
-                            Id = Convert.ToInt32(roleData[0]),
-                            Name = roleData[1]
-                        });
+                        roles.Add(
+                            Convert.ToInt32(roleData[0]),
+                            roleData[1]
+                        );
                     }
                 }
             }
@@ -115,34 +121,29 @@ namespace Task1
             {
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
-            return roles;
         }
-        static private List<Privilege> GetUserPriveles(string rolesFilePath)
+        private void GetUserPriveles(string privilegesFilePath)
         {
-            if (!File.Exists(rolesFilePath))
+            if (!File.Exists(privilegesFilePath))
             {
                 MessageBox.Show("Хранилище данных привилегий не найдено", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-                return new List<Privilege>();
+                return;
             }
-
-            var roles = new List<Privilege>();
 
             try
             {
                 string? privilegesData;
 
-                using (var streamReader = new StreamReader(rolesFilePath))
+                using (var streamReader = new StreamReader(privilegesFilePath))
                 {
                     while ((privilegesData = streamReader.ReadLine()) != null)
                     {
                         var privilegeData = privilegesData.Split(';');
 
-                        roles.Add(new Privilege
-                        {
-                            Id = Convert.ToInt32(privilegeData[0]),
-                            Name = privilegeData[1]
-                        });
+                        privileges.Add(
+                            Convert.ToInt32(privilegeData[0]),
+                            privilegeData[1]
+                        );
                     }
                 }
             }
@@ -150,8 +151,6 @@ namespace Task1
             {
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
-            return roles;
         }
     }
 }
