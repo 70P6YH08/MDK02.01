@@ -8,6 +8,8 @@ namespace Task1.DTOs
     {
         public string Login { get; set; } = null!;
         public string Role { get; set; } = null!;
+        public string Privilege { get; set;  } = null!;
         public string Email { get; set; } = null!;
+        public string Status { get; set; } = null!;
     }
 }

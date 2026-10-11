@@ -1,0 +1,45 @@
+﻿<Window x:Class="Task1.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="5" Orientation="Horizontal">
+            <TextBlock Text="Поиск:" Margin="0 0 5 0"/>
+            <TextBox x:Name="searchTextBox" Width="300" TextChanged="searchTextBox_TextChanged"/>
+            <TextBlock Text="Фильтровать:" Margin="5 0 5 0"/>
+
+            <ComboBox x:Name="userDtosComboBox" Margin="0 0 5 0"
+                      SelectionChanged="userDtosComboBox_SelectionChanged">
+                <ComboBoxItem Content="По логину" Tag="Login"/>
+                <ComboBoxItem Content="По роли" Tag="Role"/>
+                <ComboBoxItem Content="По почте" Tag="Email"/>
+                <ComboBoxItem Content="По привилегии" Tag="Privilege"/>
+                <ComboBoxItem Content="По статусу" Tag="Status"/>
+            </ComboBox>
+        </StackPanel>
+
+        <DataGrid x:Name="userDtosDataGrid" Grid.Row="1" AutoGenerateColumns="False"
+                  MouseDoubleClick="userDtosDataGrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
+                <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Margin="5" Grid.Row="2" Orientation="Horizontal">
+            <RadioButton GroupName="userDtosSort" x:Name="ascOrderRadioButton" Content="По возрастанию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
+            <RadioButton GroupName="userDtosSort" x:Name="descOrderRadioButton" Content="По убыванию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
