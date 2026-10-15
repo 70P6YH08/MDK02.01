@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\customtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\customtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|c:\\temp\\ispp31\\mdk02.01\\labs\\lab2\\labwork2\\task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C602003C-C2E9-48F7-BAD7-7CCDAD48FC03}|Task5\\Task5.csproj|solutionrelative:task5\\task5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Task5\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Task5\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T07:00:45.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Program.cs",
+              "RelativeDocumentMoniker": "Task5\\Program.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Program.cs",
+              "RelativeToolTip": "Task5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:00:06.969Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,20 +71,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CustomTask.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\CustomTask.cs",
               "RelativeDocumentMoniker": "Task5\\CustomTask.cs",
               "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\CustomTask.cs",
               "RelativeToolTip": "Task5\\CustomTask.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA2wC8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T13:53:53.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T13:53:53.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task5\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "Task5\\Controllers\\TasksController.cs",

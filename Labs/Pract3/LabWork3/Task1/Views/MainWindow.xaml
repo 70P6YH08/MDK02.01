@@ -10,15 +10,14 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
         <StackPanel Margin="5" Orientation="Horizontal">
             <TextBlock Text="Поиск:" Margin="0 0 5 0"/>
             <TextBox x:Name="searchTextBox" Width="300" TextChanged="searchTextBox_TextChanged"/>
             <TextBlock Text="Фильтровать:" Margin="5 0 5 0"/>
-
-            <ComboBox x:Name="userDtosComboBox" Margin="0 0 5 0"
+            <ComboBox x:Name="userDtosComboBox" Margin="0 0 15 0"
                       SelectionChanged="userDtosComboBox_SelectionChanged">
                 <ComboBoxItem Content="По логину" Tag="Login"/>
                 <ComboBoxItem Content="По роли" Tag="Role"/>
@@ -26,6 +25,11 @@
                 <ComboBoxItem Content="По привилегии" Tag="Privilege"/>
                 <ComboBoxItem Content="По статусу" Tag="Status"/>
             </ComboBox>
+
+            <StackPanel Margin="5" Grid.Row="2" Orientation="Horizontal">
+                <RadioButton GroupName="userDtosSort" x:Name="ascOrderRadioButton" Content="По возрастанию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
+                <RadioButton GroupName="userDtosSort" x:Name="descOrderRadioButton" Content="По убыванию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
+            </StackPanel>
         </StackPanel>
 
         <DataGrid x:Name="userDtosDataGrid" Grid.Row="1" AutoGenerateColumns="False"
@@ -35,11 +39,9 @@
                 <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
             </DataGrid.Columns>
         </DataGrid>
-
-        <StackPanel Margin="5" Grid.Row="2" Orientation="Horizontal">
-            <RadioButton GroupName="userDtosSort" x:Name="ascOrderRadioButton" Content="По возрастанию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
-            <RadioButton GroupName="userDtosSort" x:Name="descOrderRadioButton" Content="По убыванию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
-        </StackPanel>
-
+        <DockPanel x:Name="GenerateButtonsSDockPanel"
+                    Grid.Row="2" HorizontalAlignment="Center">
+            
+        </DockPanel>
     </Grid>
 </Window>

@@ -16,12 +16,15 @@ namespace Task1.Views
         private readonly string _rolesFilePath = "roles.csv";
         private readonly string _privilegesFilePath = "privileges.csv";
 
+        int pageNumber = 1;
+        int pageSize = 5;
 
         List<User> users = new();
         Dictionary<int, string> roles = new();
         Dictionary<int, string> privileges = new();
 
         List<UserDto> userDtos = new();
+        List<UserDto> userDtosView = new();
 
 
         public MainWindow()
@@ -29,7 +32,7 @@ namespace Task1.Views
             InitializeComponent();
             LoadData();
 
-            userDtosDataGrid.ItemsSource = userDtos;
+            userDtosDataGrid.ItemsSource = userDtosView;
             userDtosComboBox.SelectedIndex = 0;
         }
 
@@ -40,6 +43,26 @@ namespace Task1.Views
             GetUserPriveles(_privilegesFilePath);
 
             GetUserDtos();
+            GenerateButtonPages();
+        }
+
+        private void GenerateButtonPages()
+        {
+            var stackPanel = new StackPanel();
+            stackPanel.Orientation = Orientation.Horizontal;
+            var countPages = userDtos.Count() / pageSize;
+
+            for (int i = 1; i <= countPages; i++)
+            {
+                var newButton = new Button();
+                newButton.Content = $"{i}";
+                newButton.Margin = new Thickness(5, 5, 5, 5);
+                newButton.Width = 30;
+                newButton.Height = 30;
+                stackPanel.Children.Add(newButton);
+            }
+
+            GenerateButtonsSDockPanel.Children.Add(stackPanel);
         }
 
         private void GetUserDtos()
@@ -54,6 +77,10 @@ namespace Task1.Views
                     Status = u.Status
                 })
             );
+            userDtosView = userDtos
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToList(); 
         }
 
 
