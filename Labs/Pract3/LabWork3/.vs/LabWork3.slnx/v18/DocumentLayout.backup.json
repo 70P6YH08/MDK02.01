@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Task1\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Task1\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAApwDsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T06:39:09.195Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -43,6 +30,19 @@
               "RelativeToolTip": "Task1\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-10-15T06:31:42.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Task1\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\LabWork3\\Task1\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Task1\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAAAAoBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T06:39:09.195Z",
               "EditorCaption": ""
             }
           ]

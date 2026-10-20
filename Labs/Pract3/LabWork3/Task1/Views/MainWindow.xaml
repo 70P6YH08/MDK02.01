@@ -39,9 +39,9 @@
                 <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
             </DataGrid.Columns>
         </DataGrid>
-        <DockPanel x:Name="GenerateButtonsSDockPanel"
-                    Grid.Row="2" HorizontalAlignment="Center">
-            
+        <DockPanel Grid.Row="2" HorizontalAlignment="Center">
+            <Button x:Name="PreviousPageButton" Content="&lt;" Margin="5 5 10 5" Width="20" Height="30" Click="PaginationPage_Click"/>
+            <Button x:Name="NextPageButton" Content="&gt;" Margin="10 5 5 5" Width="20" Height="30" Click="PaginationPage_Click"/>
         </DockPanel>
     </Grid>
 </Window>
