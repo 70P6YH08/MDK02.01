@@ -1,7 +1,7 @@
-﻿using System.IO;
+﻿using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Xml.Linq;
 using Task1.DTOs;
 using Task1.Models;
 
@@ -19,13 +19,12 @@ namespace Task1.Views
         private int _currentPageNumber = 1;
         private int _pageSize = 5;
 
-        List<User> users = new();
+        ObservableCollection<User> users = new();
         Dictionary<int, string> roles = new();
         Dictionary<int, string> privileges = new();
 
         List<UserDto> userDtos = new();
         List<UserDto> userDtosView = new();
-
 
         public MainWindow()
         {
@@ -67,10 +66,14 @@ namespace Task1.Views
 
         private void LoadPage()
         {
-            userDtosView = userDtos
+            var newPageUserDtos = userDtos
                 .Skip((_currentPageNumber - 1) * _pageSize)
                 .Take(_pageSize)
                 .ToList();
+
+            userDtosView = newPageUserDtos;
+            userDtosDataGrid.ItemsSource = null;
+            userDtosDataGrid.ItemsSource = userDtosView;
         }
 
         private void GetUserDtos()
@@ -189,7 +192,7 @@ namespace Task1.Views
 
         private void userDtosComboBox_SelectionChanged(object sender, RoutedEventArgs e)
         {
-            if(userDtosComboBox.SelectedValue is ComboBoxItem comboBoxItem)
+            if (userDtosComboBox.SelectedValue is ComboBoxItem comboBoxItem)
             {
                 var mode = comboBoxItem.Tag.ToString();
 
@@ -198,21 +201,21 @@ namespace Task1.Views
                 var sorted = mode switch
                 {
                     "Login" => isAsc
-                        ? userDtos.OrderBy(x => x.Login).ToList()
-                        : userDtos.OrderByDescending(x => x.Login).ToList(),
+                        ? userDtosView.OrderBy(x => x.Login).ToList()
+                        : userDtosView.OrderByDescending(x => x.Login).ToList(),
                     "Role" => isAsc
-                        ? userDtos.OrderBy(x => x.Role).ToList()
-                        : userDtos.OrderByDescending(x => x.Role).ToList(),
+                        ? userDtosView.OrderBy(x => x.Role).ToList()
+                        : userDtosView.OrderByDescending(x => x.Role).ToList(),
                     "Privilege" => isAsc
-                        ? userDtos.OrderBy(x => x.Privilege).ToList()
-                        : userDtos.OrderByDescending(x => x.Privilege).ToList(),
+                        ? userDtosView.OrderBy(x => x.Privilege).ToList()
+                        : userDtosView.OrderByDescending(x => x.Privilege).ToList(),
                     "Status" => isAsc
-                        ? userDtos.OrderBy(x => x.Status).ToList()
-                        : userDtos.OrderByDescending(x => x.Status).ToList(),
+                        ? userDtosView.OrderBy(x => x.Status).ToList()
+                        : userDtosView.OrderByDescending(x => x.Status).ToList(),
                     "Email" => isAsc
-                        ? userDtos.OrderBy(x => x.Email).ToList()
-                        : userDtos.OrderByDescending(x => x.Email).ToList(),
-                    _ => userDtos
+                        ? userDtosView.OrderBy(x => x.Email).ToList()
+                        : userDtosView.OrderByDescending(x => x.Email).ToList(),
+                    _ => userDtosView
                 };
                 userDtosDataGrid.ItemsSource = sorted;
             }
@@ -223,7 +226,7 @@ namespace Task1.Views
             var search = searchTextBox.Text;
             var filterUserDtos = new List<UserDto>();
 
-            foreach (var userDto in userDtos)
+            foreach (var userDto in userDtosView)
             {
                 if (userDto.Login.Contains(search) || userDto.Email.Contains(search))
                     filterUserDtos.Add(userDto);
@@ -244,26 +247,25 @@ namespace Task1.Views
             }
         }
 
-        private void PaginationPage_Click(object sender, RoutedEventArgs e)
-        {
-            if (PreviousPageButton.IsPressed)
-            {
-                if(_currentPageNumber > 1)
-                {
-                    _currentPageNumber--;
-                    LoadPage();
-                }
-            }
-            if (NextPageButton.IsPressed)
-            {
-                double pages = userDtos.Count() / _pageSize;
-                var countPages = Math.Ceiling(pages);
 
-                if (_currentPageNumber < countPages)
-                {
-                    _currentPageNumber++;
-                    LoadPage();
-                }
+        private void PreviousPageButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (_currentPageNumber > 1)
+            {
+                _currentPageNumber--;
+                LoadPage();
+            }
+        }
+
+        private void NextPageButton_Click(object sender, RoutedEventArgs e)
+        {
+            double usersCount = userDtos.Count();
+            var countPages = Math.Ceiling((double)usersCount/_pageSize);
+
+            if (_currentPageNumber < countPages)
+            {
+                _currentPageNumber++;
+                LoadPage();
             }
         }
     }
