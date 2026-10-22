@@ -255,6 +255,7 @@ namespace Task1.Views
                 _currentPageNumber--;
                 LoadPage();
             }
+            searchTextBox.Clear();
         }
 
         private void NextPageButton_Click(object sender, RoutedEventArgs e)
@@ -267,6 +268,7 @@ namespace Task1.Views
                 _currentPageNumber++;
                 LoadPage();
             }
+            searchTextBox.Clear();
         }
     }
 }
