@@ -17,7 +17,7 @@ namespace Task1.Views
         private readonly string _privilegesFilePath = "privileges.csv";
 
         private int _currentPageNumber = 1;
-        private int _pageSize = 5;
+        private int _pageSize = 6;
 
         ObservableCollection<User> users = new();
         Dictionary<int, string> roles = new();
@@ -159,6 +159,7 @@ namespace Task1.Views
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
         private void GetUserPriveles(string privilegesFilePath)
         {
             if (!File.Exists(privilegesFilePath))
@@ -227,10 +228,8 @@ namespace Task1.Views
             var filterUserDtos = new List<UserDto>();
 
             foreach (var userDto in userDtosView)
-            {
                 if (userDto.Login.Contains(search) || userDto.Email.Contains(search))
                     filterUserDtos.Add(userDto);
-            }
 
             userDtosDataGrid.ItemsSource = filterUserDtos;
         }

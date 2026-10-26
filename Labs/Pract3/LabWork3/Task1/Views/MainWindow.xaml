@@ -19,7 +19,7 @@
             <TextBlock Text="Фильтровать:" Margin="5 0 5 0"/>
             <ComboBox x:Name="userDtosComboBox" Margin="0 0 15 0"
                       SelectionChanged="userDtosComboBox_SelectionChanged">
-                <ComboBoxItem Content="По логину" Tag="Login"/>
+                <ComboBoxItem Content="По логину" Tag="Login" IsEnabled="True"/>
                 <ComboBoxItem Content="По роли" Tag="Role"/>
                 <ComboBoxItem Content="По почте" Tag="Email"/>
                 <ComboBoxItem Content="По привилегии" Tag="Privilege"/>
@@ -27,7 +27,7 @@
             </ComboBox>
 
             <StackPanel Margin="5" Grid.Row="2" Orientation="Horizontal">
-                <RadioButton GroupName="userDtosSort" x:Name="ascOrderRadioButton" Content="По возрастанию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
+                <RadioButton GroupName="userDtosSort" x:Name="ascOrderRadioButton" IsChecked="True" Content="По возрастанию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
                 <RadioButton GroupName="userDtosSort" x:Name="descOrderRadioButton" Content="По убыванию" Margin="0 0 5 0" Checked="userDtosComboBox_SelectionChanged"/>
             </StackPanel>
         </StackPanel>
@@ -36,7 +36,7 @@
                   MouseDoubleClick="userDtosDataGrid_MouseDoubleClick">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Логин" Binding="{Binding Login}"/>
-                <DataGridTextColumn Header="Почта" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Роль" Binding="{Binding Role}"/>
             </DataGrid.Columns>
         </DataGrid>
         <DockPanel Grid.Row="2" HorizontalAlignment="Center">

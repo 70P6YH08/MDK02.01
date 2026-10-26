@@ -1,12 +1,214 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab1\\LabWork1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\views\\authorizationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\registrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\services\\passwordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\passwordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\labwork1\\labwork1\\services\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\datavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 328,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "LabWork1\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataService.cs",
+              "RelativeToolTip": "LabWork1\\Services\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:41:29.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "LabWork1\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "LabWork1\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:41:05.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LabWork1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Models\\User.cs",
+              "RelativeToolTip": "LabWork1\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:41:03.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Views\\AuthorizationWindow.xaml",
+              "RelativeDocumentMoniker": "LabWork1\\Views\\AuthorizationWindow.xaml",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Views\\AuthorizationWindow.xaml",
+              "RelativeToolTip": "LabWork1\\Views\\AuthorizationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-24T18:40:59.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "LabWork1\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "LabWork1\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:57.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "LabWork1\\ViewModels\\RegistrationViewModel.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\RegistrationViewModel.cs",
+              "RelativeToolTip": "LabWork1\\ViewModels\\RegistrationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:56.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "LabWork1\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "LabWork1\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:55.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "LabWork1\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:54.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordConverter.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\PasswordConverter.cs",
+              "RelativeDocumentMoniker": "LabWork1\\Services\\PasswordConverter.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\PasswordConverter.cs",
+              "RelativeToolTip": "LabWork1\\Services\\PasswordConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:52.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataValidator.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
+              "RelativeDocumentMoniker": "LabWork1\\Services\\DataValidator.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\LabWork1\\LabWork1\\Services\\DataValidator.cs",
+              "RelativeToolTip": "LabWork1\\Services\\DataValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T18:40:50.801Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -55,14 +55,14 @@ namespace LabWork1.ViewModels
                     }
 
                     var userData = line.Split(";");
-                    var userLogin = userData[2];
+                    var userLogin = userData[1];
 
                     if (userLogin == Login)
                     {
                         if (parametrPasswordBox is PasswordBox passwordBox)
                         {
                             var securePassword = passwordBox.SecurePassword;
-                            var userPasswordHash = userData[3];
+                            var userPasswordHash = userData[2];
 
                             if (!DataValidator.IsRightPassword(securePassword, userPasswordHash))
                             {
@@ -82,7 +82,7 @@ namespace LabWork1.ViewModels
                             {
                                 Id = Convert.ToInt32(userData[0]),
                                 Login = userData[1],
-                                Email = userData[2],
+                                Email = userData[3],
                             };
 
 
