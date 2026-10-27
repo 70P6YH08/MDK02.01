@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9N/bHYrNAws=",
+  "dgSpecHash": "Z0uCzZR3rIw=",
   "success": true,
-  "projectFilePath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
+  "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab2\\LabWork2\\Task3\\Task3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\0109-06\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
-    "C:\\Users\\0109-06\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+    "C:\\Users\\gorbu\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
+    "C:\\Users\\gorbu\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
   ],
   "logs": []
 }
