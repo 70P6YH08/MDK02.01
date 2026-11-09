@@ -53,8 +53,6 @@ public class Program
             Console.WriteLine("[3] - Изменение данных пользователя");
             Console.WriteLine("[4] - Добавление пользователя");
             Console.WriteLine("[5] - Удаление пользователя");
-            Console.WriteLine("[6] - Сортировать пользователей");
-            Console.WriteLine("[7] - Фильтровать пользователей");
             Console.WriteLine("[Esc] - Выход из приложения");
 
             var key = Console.ReadKey(true);

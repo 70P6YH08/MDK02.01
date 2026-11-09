@@ -70,46 +70,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "LabWork1\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
-              "RelativeToolTip": "LabWork1\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T13:56:44.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
-              "RelativeDocumentMoniker": "LabWork1\\App.xaml",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
-              "RelativeToolTip": "LabWork1\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-31T13:56:37.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Task3",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
-              "RelativeDocumentMoniker": "Task3\\Task3.csproj",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
-              "RelativeToolTip": "Task3\\Task3.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-31T13:48:17.567Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -148,16 +110,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LabWork1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
+              "RelativeToolTip": "LabWork1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:56:44.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
+              "RelativeDocumentMoniker": "LabWork1\\App.xaml",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
+              "RelativeToolTip": "LabWork1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-31T13:56:37.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task3.csproj",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
+              "RelativeDocumentMoniker": "Task3\\Task3.csproj",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
+              "RelativeToolTip": "Task3\\Task3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-31T13:48:17.567Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LabWork1",
+              "Title": "LabWork1.csproj",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\LabWork1.csproj",
               "RelativeDocumentMoniker": "LabWork1\\LabWork1.csproj",
               "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\LabWork1.csproj",
               "RelativeToolTip": "LabWork1\\LabWork1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-31T13:49:32.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T13:49:32.282Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "Task3\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T13:46:46.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T13:46:46.664Z"
             },
             {
               "$type": "Document",
@@ -182,8 +178,7 @@
               "RelativeToolTip": "LabWork1\\Services\\DataService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:41:29.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T18:41:29.207Z"
             },
             {
               "$type": "Document",
@@ -207,8 +202,7 @@
               "RelativeToolTip": "LabWork1\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:41:03.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T18:41:03.419Z"
             },
             {
               "$type": "Document",
@@ -219,8 +213,7 @@
               "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\Views\\AuthorizationWindow.xaml",
               "RelativeToolTip": "LabWork1\\Views\\AuthorizationWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-24T18:40:59.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T18:40:59.323Z"
             },
             {
               "$type": "Document",
@@ -256,8 +249,7 @@
               "RelativeToolTip": "LabWork1\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T18:40:55.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-24T18:40:55.755Z"
             },
             {
               "$type": "Document",

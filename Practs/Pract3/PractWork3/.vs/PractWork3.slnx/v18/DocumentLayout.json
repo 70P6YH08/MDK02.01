@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{742D20CC-0467-427E-B531-65463B1F1B33}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\practs\\pract3\\practwork3\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742D20CC-0467-427E-B531-65463B1F1B33}|Task1\\Task1.csproj|solutionrelative:task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C91D7B-26F6-4655-8AF5-6B54D0D32A32}|PractLibrary\\PractLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\practs\\pract3\\practwork3\\practlibrary\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C91D7B-26F6-4655-8AF5-6B54D0D32A32}|PractLibrary\\PractLibrary.csproj|solutionrelative:practlibrary\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742D20CC-0467-427E-B531-65463B1F1B33}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\practs\\pract3\\practwork3\\task1\\usersmenuactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742D20CC-0467-427E-B531-65463B1F1B33}|Task1\\Task1.csproj|solutionrelative:task1\\usersmenuactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 471,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +59,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\Task1\\Program.cs",
+              "RelativeDocumentMoniker": "Task1\\Program.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\Task1\\Program.cs",
+              "RelativeToolTip": "Task1\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwD8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:43:24.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PractLibrary\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\Services\\UserService.cs",
+              "RelativeToolTip": "PractLibrary\\Services\\UserService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowGIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:14:04.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersMenuActions.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\Task1\\UsersMenuActions.cs",
+              "RelativeDocumentMoniker": "Task1\\UsersMenuActions.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\Task1\\UsersMenuActions.cs",
+              "RelativeToolTip": "Task1\\UsersMenuActions.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:11:57.786Z",
+              "EditorCaption": ""
             }
           ]
         }

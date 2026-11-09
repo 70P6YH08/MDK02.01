@@ -91,9 +91,10 @@ namespace Task1
                     }
                     Console.WriteLine();
                 }
-                Console.WriteLine(rowBorder);
+                Console.WriteLine(rowBorder + "\n");
 
-                Console.WriteLine($"\n\t\t[{pageNumber} / {pagesCount}]\n");
+                string pages = $"[{pageNumber} / {pagesCount}]";
+                Console.WriteLine(_dataFormater.DataTableCenter(pages, tableWidth) + "\n");
 
                 Console.WriteLine("[<-] - Предыдущая страница");
                 Console.WriteLine("[->] - Следующая страница");
@@ -255,7 +256,7 @@ namespace Task1
 
             var roles = await _roleService.GetRoleDtosAsync();
 
-            if (roles is null)
+            if (roles == null)
             {
                 Console.WriteLine("Список ролей пуст");
                 _consoleNavigation.WaitQuit();

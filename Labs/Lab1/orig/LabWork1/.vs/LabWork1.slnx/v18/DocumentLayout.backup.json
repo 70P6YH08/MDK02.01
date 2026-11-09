@@ -3,18 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{199F187A-A363-44B8-833A-6B7A45A8086C}|Task3\\Task3.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{199F187A-A363-44B8-833A-6B7A45A8086C}|Task3\\Task3.csproj|solutionrelative:task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{199F187A-A363-44B8-833A-6B7A45A8086C}|Task3\\Task3.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\task3\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\labwork1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\labwork1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199F187A-A363-44B8-833A-6B7A45A8086C}|Task3\\Task3.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{199F187A-A363-44B8-833A-6B7A45A8086C}|Task3\\Task3.csproj|solutionrelative:task3\\task3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|solutionrelative:labwork1\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59040D28-854E-CD80-C27C-0E01C2792FF1}|LabWork1\\LabWork1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\lab1\\orig\\labwork1\\labwork1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,24 +70,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAEoHAAAAAAAAAAAnwGIHAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-10-31T13:52:45.162Z",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LabWork1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml.cs",
+              "RelativeToolTip": "LabWork1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T13:56:44.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
+              "RelativeDocumentMoniker": "LabWork1\\App.xaml",
+              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\App.xaml",
+              "RelativeToolTip": "LabWork1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-31T13:56:37.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Task3",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
               "RelativeDocumentMoniker": "Task3\\Task3.csproj",
@@ -134,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "LabWork1",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\LabWork1.csproj",
               "RelativeDocumentMoniker": "LabWork1\\LabWork1.csproj",
@@ -148,32 +162,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.401\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAnwAkBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-10-31T13:51:13.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Task3\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\UnitTest1.cs",
               "RelativeToolTip": "Task3\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T13:46:46.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DataService.cs",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\LabWork1\\Services\\DataService.cs",
               "RelativeDocumentMoniker": "LabWork1\\Services\\DataService.cs",
