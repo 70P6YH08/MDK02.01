@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\practdbcontext\\practworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\practdbcontext\\practworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9180C3F9-7189-2804-DEBE-6C4F6A70832D}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\practdbcontext\\practworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9180C3F9-7189-2804-DEBE-6C4F6A70832D}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\practdbcontext\\practworkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\models\\privilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\models\\privilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\practworklibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BF32D12-AFE4-432D-9BEE-8FD1D00A8174}|PractWorkLibrary\\PractWorkLibrary.csproj|solutionrelative:practworklibrary\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\task1\\task1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F6164CD4-0235-471D-9841-FFAC1F9F7B79}|Task1\\Task1.csproj|solutionrelative:task1\\task1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|c:\\users\\gorbu\\desktop\\all\\collage\\4year1semestr\\mdk02.01\\labs\\pract3\\practwork3\\task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F59B2AB-2699-D06C-146E-A9BEBACA8A51}|Task1\\Task1.csproj|solutionrelative:task1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,71 +62,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Task1",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\Task1\\Task1.csproj",
-              "RelativeDocumentMoniker": "Task1\\Task1.csproj",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\Task1\\Task1.csproj",
-              "RelativeToolTip": "Task1\\Task1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-27T15:09:30.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "PractWorkLibrary\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "PractWorkLibrary\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T17:15:57.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "PractWorkLibrary\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\Role.cs",
-              "RelativeToolTip": "PractWorkLibrary\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T16:21:46.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Privilege.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\Privilege.cs",
-              "RelativeDocumentMoniker": "PractWorkLibrary\\Models\\Privilege.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\Privilege.cs",
-              "RelativeToolTip": "PractWorkLibrary\\Models\\Privilege.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T16:21:36.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\User.cs",
-              "RelativeDocumentMoniker": "PractWorkLibrary\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\Models\\User.cs",
-              "RelativeToolTip": "PractWorkLibrary\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T16:19:54.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PractWorkDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractDbContext\\PractWorkDbContext.cs",
@@ -160,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\Task1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Task1\\MainWindow.xaml",
@@ -172,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Pract3\\PractWork3\\Task1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Task1\\MainWindow.xaml.cs",
@@ -180,8 +95,7 @@
               "RelativeToolTip": "Task1\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-27T15:02:54.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-27T15:02:54.007Z"
             }
           ]
         }
