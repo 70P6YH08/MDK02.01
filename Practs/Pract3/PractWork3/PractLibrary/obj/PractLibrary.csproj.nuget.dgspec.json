@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:Labs/Pract3/PractWork3/PractWorkLibrary/obj/PractWorkLibrary.csproj.nuget.dgspec.json
-    "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj": {}
+    "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj": {}
   },
   "projects": {
-    "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj": {
+    "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj",
-        "projectName": "PractWorkLibrary",
-        "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj",
-        "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
-        "outputPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\obj\\",
-=======
-    "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
+        "projectUniqueName": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
         "projectName": "PractLibrary",
-        "projectPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
-        "packagesPath": "C:\\Users\\gorbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\obj\\",
->>>>>>> 784c9e181cc19adec8dcd3c4cc4e8f8bdff6833a:Practs/Pract3/PractWork3/PractLibrary/obj/PractLibrary.csproj.nuget.dgspec.json
+        "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
+        "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,6 +57,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.14, )"
@@ -96,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -11,3 +11,17 @@ C:\Users\gorbu\Desktop\All\collage\4year1semestr\MDK02.01\Practs\Pract3\PractWor
 C:\Users\gorbu\Desktop\All\collage\4year1semestr\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\refint\PractLibrary.dll
 C:\Users\gorbu\Desktop\All\collage\4year1semestr\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.pdb
 C:\Users\gorbu\Desktop\All\collage\4year1semestr\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\ref\PractLibrary.dll
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\bin\Debug\net10.0\PractLibrary.deps.json
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\bin\Debug\net10.0\PractLibrary.dll
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\bin\Debug\net10.0\PractLibrary.pdb
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.csproj.AssemblyReference.cache
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.AssemblyInfoInputs.cache
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.AssemblyInfo.cs
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.csproj.CoreCompileInputs.cache
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.sourcelink.json
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.dll
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\refint\PractLibrary.dll
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLibrary.pdb
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\ref\PractLibrary.dll
+C:\temp\ispp31\MDK02.01\Practs\Pract3\PractWork3\PractLibrary\obj\Debug\net10.0\PractLib.3FBAEB7B.Up2Date

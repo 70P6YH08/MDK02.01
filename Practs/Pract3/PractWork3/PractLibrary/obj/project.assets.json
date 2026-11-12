@@ -11,6 +11,22 @@
           "lib/net10.0/BCrypt-Net-Next.dll": {}
         }
       },
+      "CommunityToolkit.Mvvm/8.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/CommunityToolkit.Mvvm.targets": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/10.0.14": {
         "type": "package",
         "dependencies": {
@@ -474,6 +490,46 @@
         "lib/netstandard2.1/BCrypt-Net-Next.dll",
         "lib/netstandard2.1/BCrypt.Net-Next.xml",
         "readme.md"
+      ]
+    },
+    "CommunityToolkit.Mvvm/8.4.2": {
+      "sha512": "WadCzGEc2U+3e20avRLng4qNtt4zoOGWrdUISqJWrHe3/FSnrYjuM5Sb4yQb09LhkBXrrI4Zt3dLKgRMbItsrg==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.12/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.12/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn5.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn5.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "build/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "build/CommunityToolkit.Mvvm.Windows.targets",
+        "build/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "build/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.FeatureSwitches.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.SourceGenerators.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.Windows.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.WindowsSdk.targets",
+        "buildTransitive/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.4.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0-windows10.0.17763/CommunityToolkit.Mvvm.xml",
+        "lib/net8.0/CommunityToolkit.Mvvm.dll",
+        "lib/net8.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
     "Microsoft.Data.Sqlite.Core/10.0.14": {
@@ -1029,6 +1085,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "BCrypt.Net-Next >= 4.2.0",
+      "CommunityToolkit.Mvvm >= 8.4.2",
       "Microsoft.EntityFrameworkCore >= 10.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 10.0.14"
     ]
@@ -1040,19 +1097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD:Labs/Pract3/PractWork3/PractWorkLibrary/obj/project.assets.json
-      "projectUniqueName": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj",
-      "projectName": "PractWorkLibrary",
-      "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\PractWorkLibrary.csproj",
-      "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\ispp31\\MDK02.01\\Labs\\Pract3\\PractWork3\\PractWorkLibrary\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
+      "projectUniqueName": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
       "projectName": "PractLibrary",
-      "projectPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
-      "packagesPath": "C:\\Users\\gorbu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\obj\\",
->>>>>>> 784c9e181cc19adec8dcd3c4cc4e8f8bdff6833a:Practs/Pract3/PractWork3/PractLibrary/obj/project.assets.json
+      "projectPath": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\PractLibrary.csproj",
+      "packagesPath": "C:\\Users\\0109-06\\.nuget\\packages\\",
+      "outputPath": "C:\\temp\\ispp31\\MDK02.01\\Practs\\Pract3\\PractWork3\\PractLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1098,6 +1147,10 @@
             "target": "Package",
             "version": "[4.2.0, )"
           },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.4.2, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[10.0.14, )"
@@ -1123,7 +1176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
