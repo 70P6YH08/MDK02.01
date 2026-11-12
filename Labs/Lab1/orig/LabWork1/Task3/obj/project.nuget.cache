@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "tWC+OlW7CY0=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект LabWork1 несовместим с net10.0 (.NETCoreApp,Version=v10.0). Проект LabWork1 поддерживает: net10.0-windows7.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
+      "filePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\4year1semestr\\MDK02.01\\Labs\\Lab1\\orig\\LabWork1\\Task3\\Task3.csproj",
+      "libraryId": "LabWork1",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
